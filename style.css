@@ -1,4 +1,4 @@
-/* Reset some default styles */
+
 body, h1, h2, h3, p, ul {
     margin: 0;
     padding: 0;
@@ -37,7 +37,7 @@ body, h1, h2, h3, p, ul {
   }
   
   nav a:hover {
-    background-color: #555;
+    background-color:orangered;
   }
   
   /* Hero section styles */
@@ -62,7 +62,9 @@ body, h1, h2, h3, p, ul {
   }
 
   .cta-button:hover {
-    background-color: teal;
+    background-color: orangered;
+    color: black;
+    font-weight: bold;
   }
   
   /* About section styles */
@@ -87,6 +89,10 @@ body, h1, h2, h3, p, ul {
     border: 1px solid #ccc;
     border-radius: 5px;
   }
+
+  .project :hover {
+    color: orangered;
+  }
   
   .project img {
     width: 100%;
@@ -103,6 +109,11 @@ body, h1, h2, h3, p, ul {
   .social-icons a {
     margin-right: 1em;
   }
+
+  .social-icons a:hover {
+    background-color: white;
+    border-radius: 15%;
+  }
   
   /* Footer styles */
   footer {
@@ -111,4 +122,29 @@ body, h1, h2, h3, p, ul {
     text-align: center;
     padding: 1em 0;
   }
+  
+  .latest {
+    margin-left: 38px;
+  }
+
+  .link_my {
+    color: rgb(195, 190, 190);
+  }
+
+
+
+
+#about-me {
+    margin-top: 2em;
+    background-color: #f4f4f4;
+    padding: 4em;
+    text-align: center;
+}
+
+
+
+
+
+
+  
   
